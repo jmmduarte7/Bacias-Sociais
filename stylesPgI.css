@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@font-face {
+    font-family: SummerSquare;
+    src: url(imagens/marca/fonte/SummerSquare.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+    font-weight: 700;
+    background-image: url('ChatGPT Image 3 de jun. de 2025, 11_08_37')
+}
+header{
+    background-color: #d8cca8;
+}
+.navbar-brand{
+    font-family: SummerSquare !important;
+}
+body{
+background-color:rgb(216, 204, 168);
+}
+.bg-body-tertiary {
+    --bs-tertiary-bg-rgb: 216, 204, 168 /* Defina a cor desejada aqui: #d8cca8) */
+}
+.offcanvas-header{
+    background-color: #7d9958;
+}
+.offcanvas-body{
+    background-color: #d8cca8;
+}
+.navbar offcanvas-header{
+    background-color: #d8cca8 !important;
+}
+.container-fluid{
+    background-color: #d8cca8;
+    margin: 0;
+}
+.btn.btn-primary{
+    background-color: #f36b0b;
+    border: #f36b0b;
+}
+.btn.btn-primary:hover{
+    background-color: #a24807;
+    border: #a24807;
+}
+.card-body{
+    background-color: #7d9958;
+    border: #7d9958;
+}
+/*animação*/
+nav{
+    background-color: #d8cca8;
+    padding: 1%;
+}
+ nav li{
+    display: inline-block;
+ }
+
+ nav li a{
+    display: inline-block;
+    color:#d8cca8;
+    text-decoration: none;
+    padding: 15px;
+ }
+
+ nav li a:hover{
+    background-color: #e8d6a1;
+    
+ }
+
+ a{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+ }
+
+ li a:after{
+    content: "";
+    position: absolute;
+    background-color: #7d9958;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+ }
+li a:hover{
+    color:#d8cca8;
+}
+li a:hover:after{
+    width: 100%;
+}
+
+.grid{
+display: grid;
+grid-template-rows:auto auto auto auto;
+row-gap: 10px;
+}
+.caixa{
+background-color: #d8cca8;
+border-color: #d8cca8;
+padding: 10px 23px;
+margin-top: 50px;
+border-radius: 4px;
+text-align: center;
+text-align: justify;
+}
+.caixa h1{
+text-align: center !important; 
+}
+.caixão{
+display: flex;
+justify-content: center;
+gap:120px;
+}
+#container1 img{
+height: auto;
+max-width: 100%;
+}
+#container2 img{
+height: auto;
+max-width: 100%;
+}
+
+.containerCity{
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+align-items: flex-start;
+align-content: space-around;
+gap: 10px;
+background-color: #d8cca8;
+}

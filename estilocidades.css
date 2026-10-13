@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@font-face {
+    font-family: SummerSquare;
+    src: url(imagens/marca/fonte/SummerSquare.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", serif;
+    font-weight: 700;
+}
+header{
+    background-color: #d8cca8;
+    
+}
+.navbar-brand{
+    font-family: SummerSquare !important;
+}
+body{
+background-color:#d8cca8;
+}
+.bg-body-tertiary {
+    --bs-tertiary-bg-rgb: 215, 203, 167 /* Defina a cor desejada aqui: #7d9958) */
+}
+.offcanvas-header{
+    background-color: #7d9958;
+}
+.offcanvas-body{
+    background-color: #d8cca8;
+}
+.navbar offcanvas-header{
+    background-color: #7d9958 !important;
+}
+.container-fluid{
+    background-color: #d8cca8;
+    margin: 0;
+}
+/*animação*/
+nav{
+    background-color: #d8cca8;
+    padding: 1%;
+}
+ nav li{
+    display: inline-block;
+ }
+
+ nav li a{
+    display: inline-block;
+    color:#d8cca8;
+    text-decoration: none;
+    padding: 15px;
+ }
+
+ nav li a:hover{
+    background-color: #e8d6a1;
+    
+ }
+
+ a{
+    position: relative;
+    text-decoration: none;
+    padding: 0 10px;
+ }
+
+ li a:after{
+    content: "";
+    position: absolute;
+    background-color: #7d9958;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+ }
+li a:hover{
+    color:#d8cca8;
+}
+li a:hover:after{
+    width: 100%;
+}
+
+.grid{
+display: grid;
+grid-template-rows:auto auto auto auto;
+row-gap: 10px;
+background-color: #d8cca8;
+}
+.caixa{
+background-color: #d8cca8;
+border-color: #d8cca8;
+padding: 10px 23px;
+margin-top: 50px;
+border-radius: 4px;
+text-align: center;
+text-align: justify;
+}
+.caixa h1{
+text-align: center !important; 
+}
+.caixão{
+display: flex;
+justify-content: center;
+gap:120px;
+}
+#container1 img{
+height: auto;
+max-width: 100%;
+}
+#container2 img{
+height: auto;
+max-width: 100%;
+}
